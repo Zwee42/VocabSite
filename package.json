@@ -1,0 +1,28 @@
+{
+  "name": "vocabsite",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "node init-db.js && next dev",
+    "build": "node init-db.js && next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "better-sqlite3": "^12.11.1",
+    "next": "^13.5.11",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^3.0.0",
+    "@types/better-sqlite3": "^7.6.13",
+    "@types/node": "^26.1.0",
+    "@types/react": "^19.2.17",
+    "autoprefixer": "^10.5.2",
+    "nodemon": "^3.1.14",
+    "postcss": "^8.5.16",
+    "tailwindcss": "^3.4.19",
+    "typescript": "~5.7.0"
+  }
+}
